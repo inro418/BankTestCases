@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="3" total="41" passed="37">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Department of loan" duration-ms="531" started-at="2020-04-02T22:44:13Z" finished-at="2020-04-02T22:44:14Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day1.CarLoanWebSignIn()[pri:0, instance:tests.Day1@735b5592]" name="CarLoanWebSignIn" class="tests.Day1"/>
+        <method signature="Day2.BusinessLoanMobileSignIn()[pri:0, instance:tests.Day2@62ee68d8]" name="BusinessLoanMobileSignIn" class="tests.Day2"/>
+        <method signature="Day3.BusinessLoanAPISignIn()[pri:0, instance:tests.Day3@9629756]" name="BusinessLoanAPISignIn" class="tests.Day3"/>
+        <method signature="Day4.MortgageLoanMacSignIn()[pri:0, instance:tests.Day4@7f9a81e8]" name="MortgageLoanMacSignIn" class="tests.Day4"/>
+        <method signature="Day5.MortgageLoanLinuxSignIn()[pri:0, instance:tests.Day5@5034c75a]" name="MortgageLoanLinuxSignIn" class="tests.Day5"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Family loan" duration-ms="11" started-at="2020-04-02T22:44:13Z" finished-at="2020-04-02T22:44:13Z">
+    </test> <!-- Family loan -->
+    <test name="Personal loan" duration-ms="531" started-at="2020-04-02T22:44:13Z" finished-at="2020-04-02T22:44:14Z">
+      <class name="tests.Day5">
+        <test-method status="PASS" signature="BusinessLoanLinuxSignIn()[pri:0, instance:tests.Day5@5034c75a]" name="BusinessLoanLinuxSignIn" duration-ms="33" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BusinessLoanLinuxSignIn -->
+        <test-method status="PASS" signature="CarLoanLinuxSignIn()[pri:0, instance:tests.Day5@5034c75a]" name="CarLoanLinuxSignIn" duration-ms="5" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoanLinuxSignIn -->
+        <test-method status="PASS" signature="FarmLoanLinuxSignIn()[pri:0, instance:tests.Day5@5034c75a]" name="FarmLoanLinuxSignIn" duration-ms="4" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FarmLoanLinuxSignIn -->
+        <test-method status="PASS" signature="HolidayLoanLinuxSignIn()[pri:0, instance:tests.Day5@5034c75a]" name="HolidayLoanLinuxSignIn" duration-ms="3" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HolidayLoanLinuxSignIn -->
+        <test-method status="PASS" signature="HomeLoanLinuxSignIn()[pri:0, instance:tests.Day5@5034c75a]" name="HomeLoanLinuxSignIn" duration-ms="3" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeLoanLinuxSignIn -->
+        <test-method status="PASS" signature="InsuranceLoanLinuxSignIn()[pri:0, instance:tests.Day5@5034c75a]" name="InsuranceLoanLinuxSignIn" duration-ms="4" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsuranceLoanLinuxSignIn -->
+        <test-method status="PASS" signature="MortgageLoanLinuxSignIn()[pri:0, instance:tests.Day5@5034c75a]" name="MortgageLoanLinuxSignIn" duration-ms="10" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MortgageLoanLinuxSignIn -->
+        <test-method status="PASS" signature="SchoolLoanLinuxSignIn()[pri:0, instance:tests.Day5@5034c75a]" name="SchoolLoanLinuxSignIn" duration-ms="3" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SchoolLoanLinuxSignIn -->
+      </class> <!-- tests.Day5 -->
+      <class name="tests.Day3">
+        <test-method status="PASS" signature="BusinessLoanAPISignIn()[pri:0, instance:tests.Day3@9629756]" name="BusinessLoanAPISignIn" duration-ms="3" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BusinessLoanAPISignIn -->
+        <test-method status="PASS" signature="CarLoanAPISignIn()[pri:0, instance:tests.Day3@9629756]" name="CarLoanAPISignIn" duration-ms="4" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoanAPISignIn -->
+        <test-method status="PASS" signature="FarmLoanAPISignIn()[pri:0, instance:tests.Day3@9629756]" name="FarmLoanAPISignIn" duration-ms="3" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FarmLoanAPISignIn -->
+        <test-method status="PASS" signature="HolidayLoanAPISignIn()[pri:0, instance:tests.Day3@9629756]" name="HolidayLoanAPISignIn" duration-ms="2" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HolidayLoanAPISignIn -->
+        <test-method status="PASS" signature="HomeLoanAPISignIn()[pri:0, instance:tests.Day3@9629756]" name="HomeLoanAPISignIn" duration-ms="7" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeLoanAPISignIn -->
+        <test-method status="PASS" signature="InsuranceLoanAPISignIn()[pri:0, instance:tests.Day3@9629756]" name="InsuranceLoanAPISignIn" duration-ms="1" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsuranceLoanAPISignIn -->
+        <test-method status="PASS" signature="MortgageLoanAPISignIn()[pri:0, instance:tests.Day3@9629756]" name="MortgageLoanAPISignIn" duration-ms="3" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MortgageLoanAPISignIn -->
+        <test-method status="PASS" signature="SchoolLoanAPISignIn()[pri:0, instance:tests.Day3@9629756]" name="SchoolLoanAPISignIn" duration-ms="5" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SchoolLoanAPISignIn -->
+      </class> <!-- tests.Day3 -->
+      <class name="tests.Day4">
+        <test-method status="PASS" signature="BusinessLoanMacSignIn()[pri:0, instance:tests.Day4@7f9a81e8]" name="BusinessLoanMacSignIn" duration-ms="2" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BusinessLoanMacSignIn -->
+        <test-method status="PASS" signature="CarLoanMacSignIn()[pri:0, instance:tests.Day4@7f9a81e8]" name="CarLoanMacSignIn" duration-ms="2" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoanMacSignIn -->
+        <test-method status="PASS" signature="FarmLoanMacSignIn()[pri:0, instance:tests.Day4@7f9a81e8]" name="FarmLoanMacSignIn" duration-ms="3" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FarmLoanMacSignIn -->
+        <test-method status="PASS" signature="HolidayLoanMacSignIn()[pri:0, instance:tests.Day4@7f9a81e8]" name="HolidayLoanMacSignIn" duration-ms="2" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HolidayLoanMacSignIn -->
+        <test-method status="PASS" signature="HomeLoanMacSignIn()[pri:0, instance:tests.Day4@7f9a81e8]" name="HomeLoanMacSignIn" duration-ms="3" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeLoanMacSignIn -->
+        <test-method status="PASS" signature="InsuranceLoanMacSignIn()[pri:0, instance:tests.Day4@7f9a81e8]" name="InsuranceLoanMacSignIn" duration-ms="4" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsuranceLoanMacSignIn -->
+        <test-method status="PASS" signature="MortgageLoanMacSignIn()[pri:0, instance:tests.Day4@7f9a81e8]" name="MortgageLoanMacSignIn" duration-ms="7" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MortgageLoanMacSignIn -->
+        <test-method status="PASS" signature="SchoolLoanMacSignIn()[pri:0, instance:tests.Day4@7f9a81e8]" name="SchoolLoanMacSignIn" duration-ms="5" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SchoolLoanMacSignIn -->
+      </class> <!-- tests.Day4 -->
+      <class name="tests.Day1">
+        <test-method status="PASS" signature="BusinessLoanWebSignIn(java.lang.String)[pri:0, instance:tests.Day1@735b5592]" name="BusinessLoanWebSignIn" duration-ms="5" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.barclays.co.uk/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BusinessLoanWebSignIn -->
+        <test-method status="PASS" signature="CarLoanWebSignIn()[pri:0, instance:tests.Day1@735b5592]" name="CarLoanWebSignIn" duration-ms="30" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoanWebSignIn -->
+        <test-method status="PASS" signature="FarmLoanWebSignIn()[pri:0, instance:tests.Day1@735b5592]" name="FarmLoanWebSignIn" duration-ms="3" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FarmLoanWebSignIn -->
+        <test-method status="PASS" signature="HolidayLoanWebSignIn()[pri:0, instance:tests.Day1@735b5592]" name="HolidayLoanWebSignIn" duration-ms="56" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HolidayLoanWebSignIn -->
+        <test-method status="PASS" signature="InsuranceLoanWebSignIn()[pri:0, instance:tests.Day1@735b5592]" name="InsuranceLoanWebSignIn" duration-ms="2" started-at="2020-04-02T23:44:14Z" finished-at="2020-04-02T23:44:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsuranceLoanWebSignIn -->
+        <test-method status="FAIL" signature="MortgageLoanWebSignIn()[pri:0, instance:tests.Day1@735b5592]" name="MortgageLoanWebSignIn" duration-ms="7" started-at="2020-04-02T23:44:14Z" finished-at="2020-04-02T23:44:14Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at tests.Day1.MortgageLoanWebSignIn(Day1.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MortgageLoanWebSignIn -->
+        <test-method status="PASS" signature="SchoolLoanWebSignIn()[pri:0, instance:tests.Day1@735b5592]" name="SchoolLoanWebSignIn" duration-ms="2" started-at="2020-04-02T23:44:14Z" finished-at="2020-04-02T23:44:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SchoolLoanWebSignIn -->
+      </class> <!-- tests.Day1 -->
+      <class name="tests.Day2">
+        <test-method status="PASS" signature="BusinessLoanMobileSignIn()[pri:0, instance:tests.Day2@62ee68d8]" name="BusinessLoanMobileSignIn" duration-ms="1" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BusinessLoanMobileSignIn -->
+        <test-method status="PASS" signature="CarLoanMobileSignIn()[pri:0, instance:tests.Day2@62ee68d8]" name="CarLoanMobileSignIn" duration-ms="2" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoanMobileSignIn -->
+        <test-method status="PASS" signature="FarmLoanMobileSignIn()[pri:0, instance:tests.Day2@62ee68d8]" name="FarmLoanMobileSignIn" duration-ms="1" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FarmLoanMobileSignIn -->
+        <test-method status="PASS" signature="HolidayLoanMobileSignIn()[pri:0, instance:tests.Day2@62ee68d8]" name="HolidayLoanMobileSignIn" duration-ms="5" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HolidayLoanMobileSignIn -->
+        <test-method status="PASS" signature="InsuranceLoanMobileSignIn()[pri:0, instance:tests.Day2@62ee68d8]" name="InsuranceLoanMobileSignIn" duration-ms="2" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsuranceLoanMobileSignIn -->
+        <test-method status="PASS" signature="MortgageLoanMobileSignIn()[pri:0, instance:tests.Day2@62ee68d8]" name="MortgageLoanMobileSignIn" duration-ms="3" started-at="2020-04-02T23:44:13Z" finished-at="2020-04-02T23:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MortgageLoanMobileSignIn -->
+        <test-method status="PASS" signature="SchoolLoanMobileSignIn()[pri:0, instance:tests.Day2@62ee68d8]" name="SchoolLoanMobileSignIn" duration-ms="6" started-at="2020-04-02T23:44:14Z" depends-on-methods="tests.Day2.FarmLoanMobileSignIn" finished-at="2020-04-02T23:44:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SchoolLoanMobileSignIn -->
+      </class> <!-- tests.Day2 -->
+    </test> <!-- Personal loan -->
+  </suite> <!-- Department of loan -->
+</testng-results>
